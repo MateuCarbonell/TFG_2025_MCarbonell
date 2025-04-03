@@ -23,10 +23,10 @@ Las relaciones principales incluyen:
 - Un **pago** se asocia con un **usuario** y un **servicio**.
 - Un **usuario** puede dejar múltiples **valoraciones**, cada una asociada a un servicio específico.
 
-![Captura de pantalla (1)](https://github.com/user-attachments/assets/3c01354b-78b8-46e5-b07d-4ce7c94c48d6)
+![imagen](https://github.com/user-attachments/assets/fc4d0951-dcec-488e-88d4-16c85d1d4836)
+
 
 Aquí podemos ver un diagrama de flujo algo prematuro sobre el proyecto, pero dejando clara la idea del mismo.
 
+![Diagrama en blanco](https://github.com/user-attachments/assets/e109e11a-6ac8-4e8f-9dfb-2eb03a430062)
 
-![Diagrama en blanco(1)](https://github.com/user-attachments/assets/84369b56-485b-49e0-805b-57e591901cb4)
->>>>>>> edbadf2a4a787d3aa7de5e1931ad6afbc44480a5
