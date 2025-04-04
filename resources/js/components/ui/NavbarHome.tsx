@@ -6,6 +6,9 @@ const NavbarHome = () => {
   const handleLogout = () => {
     router.post('/logout');
   };
+  const handleRegister = () => {
+    router.post('/register');
+  };
 
   return (
     <nav className="bg-blue-600 p-4">
@@ -19,6 +22,8 @@ const NavbarHome = () => {
           <li><Link href="/about" className="text-white hover:text-gray-200">About</Link></li>
         </ul>
         <Button onClick={handleLogout} variant="destructive" className="text-white">Logout</Button>
+        <Button onClick={handleRegister}  className="text-white">Register</Button>
+
       </div>
     </nav>
   );

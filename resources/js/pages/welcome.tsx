@@ -1,5 +1,6 @@
 import { usePage } from '@inertiajs/react';
 import NavbarHome from '@/components/ui/NavbarHome'; // Importa el componente de NavbarHome
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
     const { services } = usePage<{ services: { name: string; description: string; price: string }[] }>().props;
