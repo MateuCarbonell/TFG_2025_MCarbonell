@@ -1,5 +1,5 @@
 import React from "react";
-import { useForm } from "@inertiajs/react";
+import { router, useForm } from "@inertiajs/react";
 import { Head } from "@inertiajs/react";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
@@ -77,6 +77,14 @@ export default function LoginForm() {
                     >
                         {processing ? "Iniciando sesión..." : "Iniciar Sesión"}
                     </button>
+                    <div>
+                        <p className="text-center text-sm text-gray-600">
+                            ¿No tienes una cuenta?{" "}
+                            <a href={route("register")} className="text-green-600 hover:underline">
+                                Regístrate aquí
+                            </a>
+                        </p>
+                    </div>
                 </form>
             </div>
         </div>
