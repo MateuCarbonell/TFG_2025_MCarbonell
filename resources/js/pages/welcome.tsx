@@ -12,22 +12,21 @@ export default function Home() {
             <div className="max-w-4xl w-full bg-white p-8 rounded-lg shadow-lg">
                 <header className="text-center mb-8">
                     <h1 className="text-4xl font-extrabold text-gray-800">Servify</h1>
-                    <p className="text-xl text-gray-600 mt-4">Discover the best services tailored for you.</p>
+                    <p className="text-xl text-gray-600 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque recusandae quisquam enim dicta modi at expedita cum, perferendis tempore adipisci praesentium facere doloribus possimus odit assumenda. Nemo minima quos eos.</p>
                 </header>
 
                 <main className="home-main">
                     <section className="home-intro mb-12 text-center">
-                        <h2 className="text-3xl font-semibold text-gray-800">Why Choose Us?</h2>
+                        <h2 className="text-3xl font-semibold text-gray-800">Sabias que:</h2>
                         <p className="text-lg text-gray-600 mt-4">
-                            We provide top-notch services with a focus on quality, reliability, and customer satisfaction.
-                            Explore our offerings and find the perfect service for your needs.
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit quasi harum rem laborum natus quod quam assumenda possimus commodi? Qui optio vel libero eum ex autem maxime saepe dolor sed!
                         </p>
                     </section>
 
                     <section className="home-services">
                         <h2 className="text-3xl font-semibold text-center text-gray-800 mb-6">Our Services</h2>
                         <p className="text-lg text-center text-gray-600 mb-8">
-                            Explore our wide range of services and book the one that suits you best!
+                            Prophet 🔝🔝
                         </p>
 
                         {/* Mostrar servicios */}

@@ -46,10 +46,10 @@ const NavbarHome = () => {
 
                     {/* Ejemplo: opciones según tipo de usuario */}
                     {auth.user?.userType === 'provider' && (
-                        <li><Link href="/my-services" className="text-white hover:text-gray-200">My Services</Link></li>
+                        <li><Link href="/dashboard" className="text-white hover:text-gray-200">My Services</Link></li>
                     )}
-                    {auth.user?.userType === 'admin' && (
-                        <li><Link href="/admin/dashboard" className="text-white hover:text-gray-200">Admin Panel</Link></li>
+                    {auth.user?.userType === 'client' && (
+                        <li><Link href="/dashboard" className="text-white hover:text-gray-200">Services</Link></li>
                     )}
                 </ul>
 

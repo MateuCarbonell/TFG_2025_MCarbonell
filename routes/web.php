@@ -8,6 +8,9 @@ Route::get('/', [WelcomeController::class, 'index'])->name('home');
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
 });
+Route::get('/about', function () {
+    return Inertia::render('about');
+})->name('about')->middleware(['auth', 'verified']);
 Route::get('/provider-dashboard', function () {
     return Inertia::render('provider/dashboard');
 })->name('provider.dashboard')->middleware(['auth', 'verified']);
