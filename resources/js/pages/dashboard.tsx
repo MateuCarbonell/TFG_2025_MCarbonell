@@ -1,6 +1,33 @@
 import React from "react";
+import { BellRing, Check } from "lucide-react"
+import { cn } from "@/lib/utils"
+
 import { Link, router } from "@inertiajs/react";
 import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Switch } from "@/components/ui/switch"
+
+const notifications = [
+  {
+    title: "Your call has been confirmed.",
+    description: "1 hour ago",
+  },
+  {
+    title: "You have a new message!",
+    description: "1 hour ago",
+  },
+  {
+    title: "Your subscription is expiring soon!",
+    description: "2 hours ago",
+  },
+]
 
 // userType: 'client' | 'provider'
 const DashboardPage = ({ userType }) => {
@@ -37,7 +64,24 @@ const DashboardPage = ({ userType }) => {
           <>
             <h1 className="text-4xl font-bold text-blue-800 mb-4">Mis Reservas</h1>
             <h2 className="text-3xl text-blue-600">Reservar Servicio</h2>
+
+            <Card>
+
+              <CardHeader>
+                <CardTitle>Card Title</CardTitle>
+                <CardDescription>Card Description</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p>Card Content</p>
+              </CardContent>
+              <CardFooter>
+                <p>Card Footer</p>
+              </CardFooter>
+            </Card>
+            
           </>
+
+          
         ) : userType === "provider" ? (
           <>
             <h1 className="text-4xl font-bold text-green-800 mb-4">Mis Servicios</h1>
