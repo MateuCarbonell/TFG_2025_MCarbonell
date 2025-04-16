@@ -19,6 +19,7 @@ const AboutPage: React.FC = () => {
                         <p className="text-lg text-gray-600 mt-4">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.
                         </p>
+                        
                     </section>
 
                     <section className="about-values mb-12 text-center">
